@@ -72,23 +72,6 @@ export default {
           }
       )).data
     }
-    //
-    // async getBotResponse(userInput) {
-    //   const response = await axios.post('http://10.70.25.127:15009/v1/chat/completions', {
-    //     message: userInput,
-    //     max_tokens: 50,
-    //   }, {
-    //     headers: {
-    //       Authorization: 'xxx', // 替换为您的API密钥
-    //     },
-    //   });
-    //
-    //   return {
-    //     id: Date.now(),
-    //     text: response.data.choices[0].text.trim(),
-    //     sender: 'bot',
-    //   };
-    // },
   },
 };
 </script>
